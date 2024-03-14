@@ -15,7 +15,7 @@ const DataSchema = new mongoose.Schema({
     text: String
 });
 
-const DataModel = mongoose.model('msgss', DataSchema);
+const DataModel = mongoose.model('mgss', DataSchema);
 
 // Route to handle POST requests
 app.post('/home', async (req, res) => {
